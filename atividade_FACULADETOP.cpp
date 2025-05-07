@@ -16,7 +16,7 @@ int main() {
     float temp;
     int meio;
 
-    // --- Recebendo as duas primeiras notas ---
+    // Recebendo as duas primeiras notas 
     printf("Digite a primeira nota: ");
     scanf("%f", &notas[0]);
     printf("Digite a segunda nota: ");
@@ -55,11 +55,11 @@ int main() {
         tentativasExtras++;
     }
 
-    // --- Exibição dos resultados ---
+    // Exibição dos resultados
     printf("\nMedia final: %.2f\n", media);
     printf("Tentativas extras realizadas: %d\n", tentativasExtras);
 
-    // --- Estatísticas ---
+    // Estatísticas 
 
     // Calculando a média de todas as notas
     somaNotas = 0.0;
